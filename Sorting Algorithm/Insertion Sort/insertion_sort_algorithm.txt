@@ -1,0 +1,18 @@
+//Insertion sort algorithm
+
+	//values to the left of key (A[j]) in every iteration of for loop, are sorted
+	//insertion sort works the way many people sort a hand of playing cards
+	//you pick each card i.e. key and place it in its right sorted position
+	//you finds out the position as while loop does in the algo
+	//card you pick is key
+	//left of key is the card with sorted hand
+	//right of key is the pile of cards to pick
+
+
+for j = 2 to A.length
+	key = A[j]
+	i = j - 1
+	while i > 0 and A[i] > key	// loop goes from j-1 to 1 until A[j] > key or until the right postion for key is found
+		A[i+1] = A[i]    	//element of array A at position i get shifted to position i+1 or elements gets right shifted
+		i = i - 1
+	A[i+1] = key		//every key is placed at its right position
