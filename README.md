@@ -17,3 +17,13 @@ An Algorithm is described as program written in a Pseudocode
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFQb-QGCTRHm6T2hlP2Ijc9XpntsQ56YPJlVVgejh1JXVbbUu9CA)
 
 Issues of data abstraction, modularity, and error handling are often ignored in order to convey the essence of algorithm concisely.
+
+
+# CodeXtreme
+
+
+Track of my progress on learning an algorithm for solving a problem, each day!!
+
+![](https://xtream-codes.com/images/logo.png)
+
+Thank You!!!
