@@ -1,0 +1,14 @@
+for finding the Middle element of a Linked List in an optimised way:
+
+	For Rabbit Tortoise we have --
+		struct node*head
+		struct node*fast_ptr
+		struct node*slow_ptr
+		i.e, we have 3 pointers..
+
+	For a space optimised way, we can use --
+		struct node*head
+		struct node*ptr
+		int counter
+		i.e, we can use 2 pointers and a counter
+		for the same job
