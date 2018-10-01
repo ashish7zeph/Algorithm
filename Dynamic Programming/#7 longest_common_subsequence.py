@@ -18,29 +18,12 @@ def lcs(X , Y):
             elif X[i-1] == Y[j-1]: 
                 L[i][j] = L[i-1][j-1]+1
             else: 
-                L[i][j] = max(L[i-1][j] , L[i][j-1])
-    string = ''
-    i = m
-    j = n
-    while True:
-        print(i, j)
-        if i == 0 or j == 0:
-            print('exit')
-            break
-        elif L[i][j] == L[i-1][j-1]+1:
-            string = X[i-1]+string
-            i -= 1
-            j -= 1
-        elif L[i-1][j] > L[i][j-1]: i -= 1
-        elif L[i-1][j] < L[i][j-1]: j -= 1
-    print(string)
-        
+                L[i][j] = max(L[i-1][j] , L[i][j-1])        
 
     # L[m][n] contains the length of LCS of X[0..n-1] & Y[0..m-1] 
-    return L[m][n] 
+    return L[m][n]
+
 #end of function lcs
-
-
   
   
 # Driver program to test the above function 
