@@ -1,0 +1,25 @@
+
+Divide and Conquer Algorithm | Introduction
+
+
+	Like Greedy and Dynamic Programming, Divide and Conquer is an algorithmic paradigm. A typical Divide and Conquer algorithm solves a problem using following three steps.
+
+		1. Divide: Break the given problem into subproblems of same type.
+		2. Conquer: Recursively solve these subproblems
+		3. Combine: Appropriately combine the answers
+
+
+	Following are some standard algorithms that are Divide and Conquer algorithms.
+
+		1. Binary search
+		2. Quicksort
+		3. Merge sort
+		4. Closest pair of points
+		5. Strassen's Algorithm
+		6. Cooley–Tukey Fast Fourier Transform (FFT) algorithm
+		7. Karatsuba algorithm for fast multiplication
+
+
+	Divide and Conquer (D & C) vs Dynamic Programming (DP)
+
+		oth paradigms (D & C and DP) divide the given problem into subproblems and solve subproblems. How to choose one of them for a given problem? Divide and Conquer should be used when same subproblems are not evaluated many times. Otherwise Dynamic Programming or Memoization should be used. For example, Binary Search is a Divide and Conquer algorithm, we never evaluate the same subproblems again. On the other hand, for calculating nth Fibonacci number, Dynamic Programming should be preferred 
